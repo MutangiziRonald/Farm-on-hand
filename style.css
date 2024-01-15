@@ -1,0 +1,237 @@
+
+*{
+  text-transform: capitalize;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.footer{
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  position: fixed;
+  z-index: 4;
+}
+.footer .fa{
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white;
+  transition: 100ms;
+  border-radius: 50%;
+}
+.active{
+  display: flex;
+  align-items: center;
+  border-radius: 50%;
+  height: 40px;
+  color: black;
+  width: 40px;
+  border: 2px solid white;
+  position: relative;
+  transform: translateY(-20px);
+  font-size: 25px;
+  justify-content: center;
+  background: blue;
+  
+  box-shadow: 2px 3px 9px 1px gray;
+
+}
+.containe{
+  margin-top: 40px;
+  height: 70vh;
+}
+.container2{
+    background: url(/bootstrap-5.0.2-examples/features/unsplash-photo-2.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: background 1s;
+}
+.hh{
+  text-wrap: wrap;
+  
+}
+.intro{
+  background: linear-gradient(rgb(255,255,255,0.1),rgb(158,158,158,0.8),rgb(0,0,0,0.9))
+}
+section{
+  height: auto;
+  width: 100%;
+  overflow-y: auto;
+  scroll-behavior: smooth;
+  position: sticky;
+  position: relative;
+  scroll-snap-align: end;
+}
+body{
+  padding-bottom: 40px;
+  height: 100vh;
+    background: url(/bootstrap-5.0.2-examples/features/unsplash-photo-2.jpg);
+overflow-y: auto;
+scroll-snap-type: y mandatory;
+}
+.maindiv{
+  height: 350px;
+  margin: 5px 0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  
+}
+.maindiv::-webkit-scrollbar{
+  display: none;
+}
+.artical{
+  padding: 5px;
+  font-weight: bold;
+}
+.artical h3{
+  color: wheat;
+  font-weight: 900;
+}
+.person{
+  height: 50px;
+  background: white;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 2px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.person .box{
+  position: relative;
+  width: 70%;
+  height: 100%;
+  padding-left: 10px;
+  
+}
+.person h6{
+  position: absolute;
+  top: 0;
+  color: black;
+  font-size: 20px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+.person span{
+  position: absolute;
+  top: 40%;
+  font-size: 15px;
+  
+}
+.person p{
+  position: absolute;
+  top: 76%;
+  color: blue;
+  font-size: 6px;
+}
+.people{
+  border-bottom-left-radius: 40px;
+  border-top-right-radius: 30px;
+  overflow-y: auto;
+}
+.person img{
+  height: 100%;
+  width: 45px;
+  border-radius: 50%;
+  background: black;
+  padding: 5px;
+}
+.person:nth-child(odd) {
+  flex-direction: row-reverse;
+  
+}
+.person:hover{
+  background: gray;
+}
+.search input{
+  z-index: 2;
+  padding-left: 40px;
+}
+.search{
+  position: relative;
+  padding: 10px;
+  
+}
+.search .fa{
+  top: 35%;
+  left: 30px;
+  color: white;
+  font-size: 20px;
+  
+}
+.search input::placeholder{
+  color: black;
+}
+.links{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
+
+.links h5{
+  text-align: center;
+  height: 30px;
+}
+.links h5:hover{
+  background: gray;
+  color: wheat;
+}
+.nav .fa{
+  font-size: 25px;
+}
+nav{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 6;
+}
+.sidebar{
+  position: fixed;
+  height: 85vh;
+  width: 70vw;
+  top: 45px;
+  right: 0;
+  
+}
+.sidebar ul li{
+  list-style: none;
+  font-weight: bold;
+  color: white;
+  height: 30px;
+  text-decoration: none;
+  
+}
+.sidebar ul li a{
+  text-decoration: none;
+  color: gray;
+}
+.topup{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  bottom: 95px;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topup .fa{
+  font-size: 28px;
+  margin-top: 7px;
+}
+.help{
+  bottom: 50px;
+  
+}
+.img-text{
+  transition: 2s;
+  color: orangered;
+  text-shadow: 2px,4px,5px,3px black;
+}

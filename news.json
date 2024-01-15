@@ -1,0 +1,60 @@
+{
+  "news":[
+      {
+        "title":"new disease",
+        "body": "this is the artical generated from the data base about for ever news title by mutangizi ronald fulstack developee",
+        "image":"/bootstrap-5.0.2-examples/features/unsplash-photo-1.jpg",
+
+        "id":1,
+        "color":"rgb(220,53,69,0.3)"
+      },
+      {
+        "title": "quarantine",
+        "body": "this is the artical generated from the data base about for ever news title by mutangizi ronald fulstack developee",
+
+        "id": 1,
+        "color":"rgb(255,193,7,0.3)",
+        "image":"/bootstrap-5.0.2-examples/features/unsplash-photo-2.jpg"
+      },
+      {
+        "title": "the hybrid",
+        "body": "this is the artical generated from the data base about for ever news title by mutangizi ronald fulstack developee",
+        "id": 1,
+        "color":"rgb(0,202,204,0.3)",
+        "image":"/bootstrap-5.0.2-examples/features/unsplash-photo-3.jpg"
+      }
+    
+    ],
+    "people":[
+        {
+          "name":"mutangizi ronald",
+          "role":"milk hervestor",
+          "follower":200
+        },
+        {
+          "name": "nalika reachel",
+          "role": "cabage grower",
+          "follower": 600
+        },
+        {
+          "name": "ssansa jackson",
+          "role": "rabit rarer",
+          "follower": 300
+        },
+        {
+          "name": "yiga tom",
+          "role": "sheep heards",
+          "follower": 300
+        },
+        {
+          
+          "name": "nakkazi rebecca",
+          "role": "bee keeper",
+          "follower": 455
+        
+        }
+        
+      ]
+    
+  
+}
